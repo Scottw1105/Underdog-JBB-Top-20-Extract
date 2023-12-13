@@ -107,7 +107,8 @@ async function findDivs() {
         
     }
     console.log(top_20);
+    exportToCSV("Results", top_20.join("\n"));
 }
-exportToCSV("Results", top_20.join("\n"));
+
 }
 findDivs();
